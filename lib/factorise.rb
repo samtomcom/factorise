@@ -2,7 +2,7 @@ require "factorise/version"
 require 'prime'
 
 module Factorise
-  def prime_factors
+  def factorise
     number = self.to_s.dup.to_i
     factors = []
 
