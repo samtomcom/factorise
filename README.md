@@ -20,14 +20,23 @@ Or install it yourself as:
 
 ## Usage
 
-    100.factorise
-    => [2, 2, 5, 5]
+    24.factorise
+    => [2, 2, 2, 3]
 
-    100.factoriseh
-    => {2=>2, 5=>2}
+    24.factoriseh
+    => {2=>3, 
+        3=>1
+       }
 
-    100.nonprime
-    => [1, 2, 4, 5, 10, 20, 25, 50, 100]
+    24.nonprime
+    => [1, 2, 3, 4, 6, 8, 12, 24]
+
+    24.factorpairs
+    => [[1, 24],
+        [2, 12],
+        [3, 8],
+        [4, 6]
+       ]
 
 ## Development
 

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    factorise (0.3.0)
+    factorise (0.4.0)
 
 GEM
   remote: https://rubygems.org/
