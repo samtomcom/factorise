@@ -20,12 +20,14 @@ Or install it yourself as:
 
 ## Usage
 
-    [integer].factorise
+    100.factorise
+    => [2, 2, 5, 5]
 
-e.g.
+    100.factoriseh
+    => {2=>2, 5=>2}
 
-    15.factorise
-    => [3,5]
+    100.nonprime
+    => [1, 2, 4, 5, 10, 20, 25, 50, 100]
 
 ## Development
 
